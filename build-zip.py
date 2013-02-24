@@ -4,7 +4,7 @@ import os
 import zipfile
 from xml.dom.minidom import parse
 
-ADDON='plugin.video.afl-video'
+ADDON='plugin.video.nrl-video'
 EXCLUDE_EXTS = ['.pyc', '.pyo', '.swp']
 
 # Parse addon.xml for version number
