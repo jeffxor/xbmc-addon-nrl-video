@@ -7,3 +7,7 @@
 
 # no zip files
 *.zip
+
+#eclipse
+.project
+.pydevproject

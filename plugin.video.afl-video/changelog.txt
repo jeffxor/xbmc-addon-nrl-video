@@ -1,25 +1,10 @@
-[B]Version 0.6[/B]
-- Add 'Favourite Team' option
-- Add settings to main menu
-- Fix for some videos that failed to play
-
-[B]Version 0.5[/B]
-- Fix simplejson dependency
-
-[B]Version 0.4[/B]
-- Cleanups
-
-[B]Version 0.3[/B]
-- Downgrade PyAMF to 0.4 for stability
-- Add team logos
-
-[B]Version 0.2[/B]
-- Implement quality setting
-
 [B]Version 0.1[/B]
-- Initial version of Addon
+- Initial version of the NRL XBMC addon
+- Fork plugin.video.afl-video by Andy Botting
+- Change references to AFL to NRL
+- Update Video channels for NRL
+- Update Team list for the NRL
 
 [B]Credits[/B]
-Created by Andy Botting (andybz)
-Thanks to Tony Malloy for his photo 'The MCG From On High':
-http://www.flickr.com/photos/awmalloy/2813735672/
+Created by Jeffrey Williams (jeffxor)
+Created from code fork of Andy Botting (andybz) 'plugin.video.afl-video'

@@ -1,19 +1,19 @@
 #
-#    AFL Video XBMC Plugin
+#    NRL Video XBMC Plugin
 #    Copyright (C) 2012 Andy Botting
 #
-#    AFL Video is free software: you can redistribute it and/or modify
+#    NRL Video is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
 #    the Free Software Foundation, either version 3 of the License, or
 #    (at your option) any later version.
 #
-#    AFL Video is distributed in the hope that it will be useful,
+#    NRL Video is distributed in the hope that it will be useful,
 #    but WITHOUT ANY WARRANTY; without even the implied warranty of
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 #    GNU General Public License for more details.
 #
 #    You should have received a copy of the GNU General Public License
-#    along with AFL Video.  If not, see <http://www.gnu.org/licenses/>.
+#    along with NRL Video.  If not, see <http://www.gnu.org/licenses/>.
 #
 
 import sys
@@ -41,7 +41,7 @@ def parse_video(video_item):
 
 def get_videos(channel_id):
 	videos = []
-	client = RemotingService('http://afl.bigpondvideo.com/App/AmfPhp/gateway.php')
+	client = RemotingService('http://nrl.bigpondvideo.com/App/AmfPhp/gateway.php')
 	service = client.getService('Miscellaneous')
 	params = {
 		'navId': channel_id, 
