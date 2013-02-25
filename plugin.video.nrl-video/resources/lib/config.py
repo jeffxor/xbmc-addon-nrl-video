@@ -17,7 +17,7 @@
 #
 
 NAME = 'NRL Video'
-VERSION = '0.1'
+VERSION = '0.2'
 
 # Video quality static definitions with match the setings.xml
 QUAL_LOW = '0'
@@ -40,21 +40,21 @@ CHANNELS = [
 ]
 
 TEAMS = [
-	{'id': '1',		'name': 'Broncos',		'channel': '748',	'thumb': 'Broncos.gif' },
-	{'id': '2',		'name': 'Bulldogs',		'channel': '749',	'thumb': 'Bulldogs.gif' },
-	{'id': '3',		'name': 'Cowboys',		'channel': '751',	'thumb': 'Cowboys.gif' },
-	{'id': '4',		'name': 'Drangons',		'channel': '759',	'thumb': 'Drangons.gif' },
-	{'id': '5',		'name': 'Eels',			'channel': '755',	'thumb': 'Eels.gif'  },
-	{'id': '6',		'name': 'Knights',		'channel': '754',	'thumb': 'Knights.gif'  },
-	{'id': '7',		'name': 'Panthers',		'channel': '756',	'thumb': 'Panthers.gif'  },
-	{'id': '8',		'name': 'Rabbitohs',	'channel': '758',	'thumb': 'Rabbitohs.gif'  },
-	{'id': '9',		'name': 'Raiders',		'channel': '756',	'thumb': 'Raiders.gif'  },
-	{'id': '10',	'name': 'Rooster',		'channel': '760',	'thumb': 'Rooster.gif'  },
-	{'id': '11',	'name': 'Sea Eagles',	'channel': '752',	'thumb': 'SeaEagles.gif'  },
-	{'id': '12',	'name': 'Sharks',		'channel': '757',	'thumb': 'Sharks.gif'  },
-	{'id': '13',	'name': 'Storm',		'channel': '753',	'thumb': 'Storm.gif'  },
-	{'id': '14',	'name': 'Titans',		'channel': '763',	'thumb': 'Titans.gif'  },
-	{'id': '15',	'name': 'Warriors',		'channel': '761',	'thumb': 'Warriors.gif'  },
-	{'id': '16',	'name': 'West Tigers',	'channel': '762',	'thumb': 'WestTigers.gif'  }
+	{'id': '1',		'name': 'Broncos',		'channel': '748',	'thumb': 'Broncos.jpeg' },
+	{'id': '2',		'name': 'Bulldogs',		'channel': '749',	'thumb': 'Bulldogs.jpeg' },
+	{'id': '3',		'name': 'Cowboys',		'channel': '751',	'thumb': 'Cowboys.jpeg' },
+	{'id': '4',		'name': 'Drangons',		'channel': '759',	'thumb': 'Drangons.jpeg' },
+	{'id': '5',		'name': 'Eels',			'channel': '755',	'thumb': 'Eels.jpeg'  },
+	{'id': '6',		'name': 'Knights',		'channel': '754',	'thumb': 'Knights.jpeg'  },
+	{'id': '7',		'name': 'Panthers',		'channel': '756',	'thumb': 'Panthers.jpeg'  },
+	{'id': '8',		'name': 'Rabbitohs',	'channel': '758',	'thumb': 'Rabbitohs.jpeg'  },
+	{'id': '9',		'name': 'Raiders',		'channel': '756',	'thumb': 'Raiders.jpeg'  },
+	{'id': '10',	'name': 'Rooster',		'channel': '760',	'thumb': 'Rooster.jpeg'  },
+	{'id': '11',	'name': 'Sea Eagles',	'channel': '752',	'thumb': 'SeaEagles.jpeg'  },
+	{'id': '12',	'name': 'Sharks',		'channel': '757',	'thumb': 'Sharks.jpeg'  },
+	{'id': '13',	'name': 'Storm',		'channel': '753',	'thumb': 'Storm.jpeg'  },
+	{'id': '14',	'name': 'Titans',		'channel': '763',	'thumb': 'Titans.jpeg'  },
+	{'id': '15',	'name': 'Warriors',		'channel': '761',	'thumb': 'Warriors.jpeg'  },
+	{'id': '16',	'name': 'West Tigers',	'channel': '762',	'thumb': 'WestTigers.jpeg'  }
 ]
 

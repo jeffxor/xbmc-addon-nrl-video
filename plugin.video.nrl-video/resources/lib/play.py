@@ -27,8 +27,18 @@ def get_url(video_id):
 	client = RemotingService('http://nrl.bigpondvideo.com/App/AmfPhp/gateway.php')
 	service = client.getService('SEOPlayer')
 	base_url = service.getMediaURL({'cid': video_id})
+	base_url = get_javascript_url(base_url)
 	utils.log("Base URL found: %s" % base_url)
 	return base_url
+
+def get_javascript_url(base_url):
+		video_url = base_url
+		url_pattern = re.compile('(?P<url>(?:https?:\/\/)(?:[\da-z\.-]+)\.(?:[a-z\.]{2,6})(?:[\/\w ?&=\.-]*))')
+		matches = url_pattern.search(video_url)
+		if matches is not None:
+			video_url = matches.group('url')
+			utils.log("did we find a redirect url " + video_url)
+		return video_url
 
 
 def quality_url(base_url):
